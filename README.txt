@@ -1,8 +1,10 @@
-##  RESTful-in-java 🚀
+# RESTful-in-java 🚀
 
 A comprehensive RESTful API implementation in Java, demonstrating modern web service development patterns, best practices, and clean architecture principles.
 
-##  🌟 Features
+
+
+🌟Features
 
      🏗️ RESTful Architecture: Follows REST principles and HTTP standards
      ☕ Java-Powered: Built with Java and modern frameworks
@@ -13,13 +15,11 @@ A comprehensive RESTful API implementation in Java, demonstrating modern web ser
      🔄 CRUD Operations: Complete Create, Read, Update, Delete functionality
      🎯 Clean Code: Modular design with separation of concerns
 
-🛠️ Technology Stack
 
-Language: Java 11+
-Framework: Spring Boot / JAX-RS
-Build Tool: Maven / Gradle
-Database: H2 / MySQL / PostgreSQL
-ORM: Hibernate / JPA
-Testing: JUnit 5, Mockito
-Documentation: Swagger / OpenAPI
-Security: Spring Security / JWT
+
+## 🛠️ Technology Stack
+       Language: Java 11+
+       Framework: Spring Boot / JAX-RS
+       Build Tool: Maven
+
+
