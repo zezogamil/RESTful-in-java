@@ -15,8 +15,10 @@
 </p>
 
 <p align="center">
-  <!-- Build Tools -->
-<img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_API-00CCFF?style=for-the-badge&logo=rest&logoColor=white"/>
 </p>
 
 
