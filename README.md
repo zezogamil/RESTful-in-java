@@ -26,15 +26,17 @@
 
 
 
-```
-
-# RESTful-in-java 🚀
-
-A comprehensive RESTful API implementation in Java, demonstrating modern web service development patterns, best practices, and clean architecture principles.
 
 
 
-🌟Features
+
+## RESTful-in-java 🚀
+
+    A comprehensive RESTful API implementation in Java, demonstrating modern web service development patterns, best practices, and clean architecture principles.
+
+
+
+## 🌟Features
 
      🏗️ RESTful Architecture: Follows REST principles and HTTP standards
      ☕ Java-Powered: Built with Java and modern frameworks
@@ -50,6 +52,76 @@ A comprehensive RESTful API implementation in Java, demonstrating modern web ser
 ## 🛠️ Technology Stack
        Language: Java 11+
        Framework: Spring Boot / JAX-RS
-       Build Tool: Maven
+       Build Tool: Maven/ npm
 
 
+## 🏗️ Project Structure
+
+       src/
+       ├── main/
+       │   ├── java/
+       │   │   └── com/
+       │   │       └── company/
+       │   │           └── restful/
+       │   │               ├── RestfulApplication.java    # Main application class
+       │   │               ├── controller/                # REST controllers
+       │   │               │   ├── UserController.java
+       │   │               │   ├── ProductController.java
+       │   │               │   └── OrderController.java
+       │   │               ├── service/                   # Business logic layer
+       │   │               │   ├── UserService.java
+       │   │               │   ├── ProductService.java
+       │   │               │   └── OrderService.java
+       │   │               ├── repository/                # Data access layer
+       │   │               │   ├── UserRepository.java
+       │   │               │   ├── ProductRepository.java
+       │   │               │   └── OrderRepository.java
+       │   │               ├── model/                     # Entity classes
+       │   │               │   ├── User.java
+       │   │               │   ├── Product.java
+       │   │               │   └── Order.java
+       │   │               ├── dto/                       # Data Transfer Objects
+       │   │               │   ├── UserDTO.java
+       │   │               │   ├── ProductDTO.java
+       │   │               │   └── OrderDTO.java
+       │   │               ├── config/                    # Configuration classes
+       │   │               │   ├── SecurityConfig.java
+       │   │               │   ├── DatabaseConfig.java
+       │   │               │   └── SwaggerConfig.java
+       │   │               └── exception/                 # Exception handling
+       │   │                   ├── GlobalExceptionHandler.java
+       │   │                   └── CustomExceptions.java
+       │   └── resources/
+       │       ├── application.properties
+       │       ├── data.sql
+       │       └── schema.sql
+       └── test/
+           └── java/
+               └── com/
+                   └── company/
+                       └── restful/
+                           ├── controller/                # Controller tests
+                           ├── service/                   # Service tests
+                           └── integration/               # Integration tests
+       
+
+## 🚀Quick Start
+
+## Installation & Setup
+
+1. Clone the repository:
+
+       git clone https://github.com/zezogamil/RESTful-in-java.git
+       cd RESTful-in-java
+2. Build the project:
+
+       Using Maven
+       mvn clean install
+
+## 📄 License
+       © 2025 Abdelaziz Gamil. All rights reserved.
+## 👨‍💻 Author
+       Abdelaziz Gamil
+       Software Engineer
+
+        
